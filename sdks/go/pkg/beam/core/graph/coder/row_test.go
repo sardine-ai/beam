@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/jsonx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/jsonx"
 	"github.com/google/go-cmp/cmp"
 )
 

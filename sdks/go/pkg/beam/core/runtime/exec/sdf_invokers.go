@@ -16,10 +16,10 @@
 package exec
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/funcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/sdf"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 	"reflect"
 )
 

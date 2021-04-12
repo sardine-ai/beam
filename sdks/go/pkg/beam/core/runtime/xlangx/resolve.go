@@ -20,11 +20,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/artifact"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/protox"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/artifact"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/protox"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
 )
 
 // ResolveArtifacts acquires all dependencies for a cross-language transform

@@ -28,14 +28,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/stringx"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/pubsubio"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/go/pkg/beam/options/gcpopts"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/pubsubx"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/debug"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/stringx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/pubsubio"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/options/gcpopts"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/pubsubx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/beamx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/debug"
 )
 
 var (

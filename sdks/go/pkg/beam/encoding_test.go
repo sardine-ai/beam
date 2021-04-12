@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder/testutil"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder/testutil"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 	"github.com/google/go-cmp/cmp"
 )
 

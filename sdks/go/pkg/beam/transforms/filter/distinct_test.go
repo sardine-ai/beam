@@ -18,9 +18,9 @@ package filter_test
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/go/pkg/beam/transforms/filter"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/passert"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/transforms/filter"
 )
 
 type s struct {

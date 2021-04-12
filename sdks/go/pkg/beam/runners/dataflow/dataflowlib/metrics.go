@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/metrics"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/metrics"
 	df "google.golang.org/api/dataflow/v1b3"
 )
 

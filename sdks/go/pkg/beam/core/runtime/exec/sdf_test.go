@@ -19,11 +19,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/rtrackers/offsetrange"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/window"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/sdf"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/rtrackers/offsetrange"
 	"github.com/google/go-cmp/cmp"
 )
 

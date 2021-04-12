@@ -46,11 +46,11 @@ files, they may fail to build. This usually indicates a version mismatch in the
 [golang/protobuf](https://github.com/golang/protobuf) package. Specifically,
 the version of protoc-gen-go in the local Go workspace (used during
 `go generate`) differs from the cached version of golang/protobuf used for
-building Beam (specified in [gogradle.lock](https://github.com/apache/beam/blob/master/sdks/go/gogradle.lock)).
+building Beam (specified in [gogradle.lock](https://github.com/sardine-ai/beam/blob/master/sdks/go/gogradle.lock)).
 
 The preferred way to fix this issue is to update the fixed Beam version of
 golang/protobuf to a recent commit. This can be done by manually changing the
-commit hash for golang/protobuf in [gogradle.lock](https://github.com/apache/beam/blob/master/sdks/go/gogradle.lock).
+commit hash for golang/protobuf in [gogradle.lock](https://github.com/sardine-ai/beam/blob/master/sdks/go/gogradle.lock).
 
 If that fails due to dependency issues, an alternate approach is to downgrade
 the local version of protoc-gen-go to match the commit in gogradle.lock, with

@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
 
 	// ptest uses the direct runner to execute pipelines by default.
-	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/direct"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/direct"
 )
 
 var (
@@ -101,7 +101,7 @@ func RunAndValidate(t *testing.T, p *beam.Pipeline) {
 // To enable this behavior, _ import the desired runner, and set the flag
 // accordingly. For example:
 //
-//	import _ "github.com/apache/beam/sdks/go/pkg/runners/flink"
+//	import _ "github.com/sardine-ai/beam/sdks/go/pkg/runners/flink"
 //
 //	func TestMain(m *testing.M) {
 //		ptest.Main(m)

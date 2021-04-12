@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx/schema"
 )
 
 func TestJSONCoder(t *testing.T) {

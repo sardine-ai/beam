@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 //mapFields maps column into field index in record type

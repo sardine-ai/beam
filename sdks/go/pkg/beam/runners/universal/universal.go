@@ -21,18 +21,18 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/xlangx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/xlangx"
 
 	// Importing to get the side effect of the remote execution hook. See init().
-	_ "github.com/apache/beam/sdks/go/pkg/beam/core/runtime/harness/init"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/go/pkg/beam/options/jobopts"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/universal/extworker"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/universal/runnerlib"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/vet"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/harness/init"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/options/jobopts"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/universal/extworker"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/universal/runnerlib"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/vet"
 	"github.com/golang/protobuf/proto"
 )
 

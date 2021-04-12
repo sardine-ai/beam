@@ -17,9 +17,9 @@
 package synthetic
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/synthetic"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/passert"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/synthetic"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/passert"
 )
 
 // SimplePipeline creates a very simple synthetic pipeline to test that basic

@@ -28,15 +28,15 @@ import (
 	"flag"
 	"log"
 
-	"github.com/apache/beam/sdks/go/examples/xlang"
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
+	"github.com/sardine-ai/beam/sdks/go/examples/xlang"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/passert"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/beamx"
 
 	// Imports to enable correct filesystem access and runner setup in LOOPBACK mode
-	_ "github.com/apache/beam/sdks/go/pkg/beam/io/filesystem/gcs"
-	_ "github.com/apache/beam/sdks/go/pkg/beam/io/filesystem/local"
-	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/universal"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/io/filesystem/gcs"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/io/filesystem/local"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/universal"
 )
 
 var (

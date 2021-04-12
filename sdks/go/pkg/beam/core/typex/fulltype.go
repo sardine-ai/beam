@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 // FullType represents the tree structure of data types processed by the graph.

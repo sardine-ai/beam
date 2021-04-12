@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/exec"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/mtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/window"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/exec"
 )
 
 // Impulse emits its single element in one invocation.

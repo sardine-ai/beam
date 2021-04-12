@@ -22,13 +22,13 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/transforms/filter"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/transforms/filter"
 )
 
-//go:generate go install github.com/apache/beam/sdks/go/cmd/starcgen
+//go:generate go install github.com/sardine-ai/beam/sdks/go/cmd/starcgen
 //go:generate starcgen --package=passert --identifiers=diffFn,failFn,failIfBadEntries,failKVFn,failGBKFn,hashFn,sumFn,errFn,elmCountCombineFn
 //go:generate go fmt
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/apache/beam/sdks/go/cmd/beamctl/cmd"
+	"github.com/sardine-ai/beam/sdks/go/cmd/beamctl/cmd"
 )
 
 func main() {

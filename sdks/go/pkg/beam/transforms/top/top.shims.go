@@ -22,9 +22,9 @@ import (
 	"reflect"
 
 	// Library imports
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 )
 
 func init() {

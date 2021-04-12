@@ -18,8 +18,8 @@ package xlangx
 import (
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
 )
 
 func addCoderID(c *pipepb.Components, idMap map[string]string, cid string, newID func(string) string) string {

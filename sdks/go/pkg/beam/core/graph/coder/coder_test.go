@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
 )
 
 type MyType struct{}

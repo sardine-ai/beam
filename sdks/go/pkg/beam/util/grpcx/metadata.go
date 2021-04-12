@@ -19,7 +19,7 @@ package grpcx
 import (
 	"context"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 	"google.golang.org/grpc/metadata"
 )
 

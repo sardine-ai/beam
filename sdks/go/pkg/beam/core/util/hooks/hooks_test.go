@@ -19,7 +19,7 @@ import (
 	"context"
 	"testing"
 
-	fnpb "github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1"
+	fnpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/fnexecution_v1"
 )
 
 type contextKey string

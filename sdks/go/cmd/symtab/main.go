@@ -21,9 +21,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/symtab"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/funcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/symtab"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/mtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/mtime"
 )
 
 func TestEncodeDecodeEventTime(t *testing.T) {

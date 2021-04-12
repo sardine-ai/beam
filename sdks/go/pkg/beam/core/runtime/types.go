@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 )
 
 var types = make(map[string]reflect.Type)

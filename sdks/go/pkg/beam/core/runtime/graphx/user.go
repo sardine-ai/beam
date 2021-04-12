@@ -22,11 +22,11 @@ import (
 
 	"encoding/base64"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
-	v1pb "github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx/v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/protox"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/funcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
+	v1pb "github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx/v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/protox"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 )
 
 // EncodeType encodes a type as a string. Unless registered, the decoded type

@@ -25,9 +25,9 @@ package genx
 import (
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/funcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime"
 )
 
 // RegisterDoFn is a convenience function for registering DoFns.

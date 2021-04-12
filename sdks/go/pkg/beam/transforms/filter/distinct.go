@@ -16,7 +16,7 @@
 package filter
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
 )
 
 // Distinct removes all duplicates from a collection, under coder equality. It

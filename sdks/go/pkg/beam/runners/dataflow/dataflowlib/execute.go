@@ -22,12 +22,12 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/metrics"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/protox"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/universal/runnerlib"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/metrics"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/protox"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/universal/runnerlib"
 	"github.com/golang/protobuf/proto"
 	df "google.golang.org/api/dataflow/v1b3"
 )

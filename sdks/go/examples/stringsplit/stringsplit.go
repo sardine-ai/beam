@@ -42,11 +42,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/rtrackers/offsetrange"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/sdf"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/rtrackers/offsetrange"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/beamx"
 )
 
 func init() {

@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	jobpb "github.com/apache/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	jobpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 	"google.golang.org/grpc"
 )
 

@@ -24,7 +24,7 @@ description = "Apache Beam :: SDKs :: Go :: Test"
 
 // Figure out why the golang plugin does not add a build dependency between projects.
 // Without the line below, we get spurious errors about not being able to resolve
-// "./github.com/apache/beam/sdks/go"
+// "./github.com/sardine-ai/beam/sdks/go"
 resolveBuildDependencies.dependsOn ":sdks:go:goBuild"
 
 clean.dependsOn cleanVendor
@@ -33,20 +33,20 @@ dependencies {
   golang {
     // TODO(herohde): use "./" prefix to prevent gogradle use base github path, for now.
     // TODO(herohde): get the pkg subdirectory only, if possible. We spend mins pulling cmd/beamctl deps.
-    build name: './github.com/apache/beam/sdks/go', dir: project(':sdks:go').projectDir
-    test name: './github.com/apache/beam/sdks/go', dir: project(':sdks:go').projectDir
+    build name: './github.com/sardine-ai/beam/sdks/go', dir: project(':sdks:go').projectDir
+    test name: './github.com/sardine-ai/beam/sdks/go', dir: project(':sdks:go').projectDir
   }
 }
 
 golang {
-  packagePath = 'github.com/apache/beam/sdks/go/test'
+  packagePath = 'github.com/sardine-ai/beam/sdks/go/test'
   goBuild {
     // Build the linux-amd64 worker. The native version is built in the parent to
     // have a fixed name, which is not possible with multiple target platforms. The
     // script would otherwise have to figure out which arch/platform binary to invoke.
 
     targetPlatform = ['linux-amd64']
-    go 'build -o ./build/bin/linux-amd64/worker github.com/apache/beam/sdks/go/test/integration/driver'
+    go 'build -o ./build/bin/linux-amd64/worker github.com/sardine-ai/beam/sdks/go/test/integration/driver'
   }
 }
 

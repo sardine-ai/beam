@@ -32,11 +32,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	jobpb "github.com/apache/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/errorx"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	jobpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/errorx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 	"github.com/golang/protobuf/proto"
 )
 

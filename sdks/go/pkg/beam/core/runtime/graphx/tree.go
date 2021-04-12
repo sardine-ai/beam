@@ -16,7 +16,7 @@
 package graphx
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
 )
 
 // NamedEdge is a named MultiEdge.

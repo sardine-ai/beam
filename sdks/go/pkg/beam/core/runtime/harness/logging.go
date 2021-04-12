@@ -23,9 +23,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	fnpb "github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	fnpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/fnexecution_v1"
 	"github.com/golang/protobuf/ptypes"
 )
 

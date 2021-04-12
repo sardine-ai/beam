@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/mtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/window"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
 )
 
 // WindowInto places each element in one or more windows.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/ioutilx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/ioutilx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 // EncodeByte encodes a single byte.

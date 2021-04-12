@@ -19,8 +19,8 @@ package flink
 import (
 	"context"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/universal"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/universal"
 )
 
 func init() {

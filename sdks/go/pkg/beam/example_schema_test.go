@@ -21,8 +21,8 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
 	"github.com/google/go-cmp/cmp"
 )
 

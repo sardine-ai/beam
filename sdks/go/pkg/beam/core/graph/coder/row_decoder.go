@@ -20,7 +20,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 // RowDecoderBuilder allows one to build Beam Schema row encoders for provided types.

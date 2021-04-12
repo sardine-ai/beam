@@ -24,10 +24,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/artifact"
-	"github.com/apache/beam/sdks/go/pkg/beam/provision"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/execx"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/artifact"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/provision"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/execx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 )
 
 var (

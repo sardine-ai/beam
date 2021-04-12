@@ -18,12 +18,12 @@
 package filter
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/funcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 )
 
-//go:generate go install github.com/apache/beam/sdks/go/cmd/starcgen
+//go:generate go install github.com/sardine-ai/beam/sdks/go/cmd/starcgen
 //go:generate starcgen --package=filter --identifiers=filterFn,mapFn,mergeFn
 //go:generate go fmt
 

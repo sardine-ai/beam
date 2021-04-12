@@ -134,7 +134,7 @@ $ cd $GOPATH/src/github.com/apache/
 
 
 # Clone the repo, and update your branch as normal
-$ git clone https://github.com/apache/beam.git
+$ git clone https://github.com/sardine-ai/beam.git
 $ cd beam
 $ git remote add <GitHub_user> git@github.com:<GitHub_user>/beam.git
 $ git fetch --all
@@ -153,7 +153,7 @@ Follow the [contribution guide](https://beam.apache.org/contribute/contribution-
 Until [BEAM-5379](https://issues.apache.org/jira/browse/BEAM-5379) is resolved,
 Beam locks versions of packages with the gogradle plugin. If new dependencies
 are added in a PR then the lock file needs to be updated.
-From the `$GOPATH/src/github.com/apache/beam` directory run
+From the `$GOPATH/src/github.com/sardine-ai/beam` directory run
 
 ```
 $ ./gradlew :sdks:go:goLock

@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/symtab"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/symtab"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 var (

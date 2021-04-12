@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 var (

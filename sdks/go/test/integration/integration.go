@@ -38,7 +38,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
 )
 
 // Filters for temporarily skipping integration tests. All filters are regex

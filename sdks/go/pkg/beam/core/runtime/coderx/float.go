@@ -21,10 +21,10 @@ import (
 	"math/bits"
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 func encFloat(v typex.T) []byte {

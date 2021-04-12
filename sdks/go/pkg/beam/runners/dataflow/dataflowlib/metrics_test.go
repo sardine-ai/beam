@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/metrics"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/metrics"
 	"github.com/google/go-cmp/cmp"
 	df "google.golang.org/api/dataflow/v1b3"
 )

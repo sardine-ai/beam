@@ -304,13 +304,13 @@ if [[ "$JENKINS" == true ]]; then
   # Copy the go repo as it is on Jenkins, to ensure we compile with the code
   # being tested.
   cd ..
-  mkdir -p temp_gopath/src/github.com/apache/beam/sdks
-  cp -a ./src/sdks/go ./temp_gopath/src/github.com/apache/beam/sdks
+  mkdir -p temp_gopath/src/github.com/sardine-ai/beam/sdks
+  cp -a ./src/sdks/go ./temp_gopath/src/github.com/sardine-ai/beam/sdks
   TEMP_GOPATH=$(pwd)/temp_gopath
   cd ./src
 
   echo ">>> RUNNING $RUNNER VALIDATESRUNNER TESTS"
-  GOPATH=$TEMP_GOPATH go test -v github.com/apache/beam/sdks/go/test/integration/... $ARGS \
+  GOPATH=$TEMP_GOPATH go test -v github.com/sardine-ai/beam/sdks/go/test/integration/... $ARGS \
       || TEST_EXIT_CODE=$? # don't fail fast here; clean up environment before exiting
 else
   echo ">>> RUNNING $RUNNER VALIDATESRUNNER TESTS"

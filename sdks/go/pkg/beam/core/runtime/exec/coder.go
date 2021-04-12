@@ -23,12 +23,12 @@ import (
 
 	"bytes"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/ioutilx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/mtime"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/window"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/ioutilx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 )
 
 // NOTE(herohde) 4/30/2017: The main complication is CoGBK results, which have

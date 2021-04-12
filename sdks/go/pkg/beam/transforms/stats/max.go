@@ -16,7 +16,7 @@
 package stats
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
 )
 
 //go:generate specialize --input=max_switch.tmpl --x=integers,floats

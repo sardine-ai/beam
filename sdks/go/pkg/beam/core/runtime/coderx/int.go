@@ -18,8 +18,8 @@ package coderx
 import (
 	"encoding/binary"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
 )
 
 // Fixed-sized custom coders for integers.

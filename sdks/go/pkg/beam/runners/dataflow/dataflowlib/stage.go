@@ -22,8 +22,8 @@ import (
 	"os"
 
 	"cloud.google.com/go/storage"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/gcsx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/gcsx"
 )
 
 // StageModel uploads the pipeline model to GCS as a unique object.

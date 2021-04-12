@@ -19,7 +19,7 @@ package textio
 import (
 	"testing"
 
-	_ "github.com/apache/beam/sdks/go/pkg/beam/io/filesystem/local"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/io/filesystem/local"
 )
 
 func TestRead(t *testing.T) {

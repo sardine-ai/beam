@@ -22,15 +22,15 @@ import (
 
 	"fmt"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/bigqueryio"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/textio"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/go/pkg/beam/options/gcpopts"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/bigqueryio"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/textio"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/options/gcpopts"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/beamx"
 )
 
-// See: https://github.com/apache/beam/blob/master/examples/java/src/main/java/org/apache/beam/examples/cookbook/JoinExamples.java
+// See: https://github.com/sardine-ai/beam/blob/master/examples/java/src/main/java/org/apache/beam/examples/cookbook/JoinExamples.java
 
 const (
 	gdeltEventsTable  = "clouddataflow-readonly:samples.gdelt_sample"

@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/exec"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/hooks"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	fnpb "github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/exec"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/hooks"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	fnpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/fnexecution_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
 )

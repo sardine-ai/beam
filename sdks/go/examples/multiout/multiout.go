@@ -24,10 +24,10 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/textio"
-	"github.com/apache/beam/sdks/go/pkg/beam/transforms/stats"
-	"github.com/apache/beam/sdks/go/pkg/beam/x/beamx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/textio"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/transforms/stats"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/x/beamx"
 )
 
 var (

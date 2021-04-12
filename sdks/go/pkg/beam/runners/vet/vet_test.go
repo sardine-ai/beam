@@ -17,10 +17,10 @@ package vet
 
 import (
 	"context"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/vet/testpipeline"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/vet/testpipeline"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
 )
 
 func TestEvaluate(t *testing.T) {

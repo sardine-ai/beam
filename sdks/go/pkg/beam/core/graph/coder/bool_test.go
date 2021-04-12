@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
 	"github.com/google/go-cmp/cmp"
 )
 

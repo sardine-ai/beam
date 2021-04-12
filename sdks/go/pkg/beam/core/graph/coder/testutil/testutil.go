@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph/coder"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph/coder"
 	"github.com/google/go-cmp/cmp"
 )
 

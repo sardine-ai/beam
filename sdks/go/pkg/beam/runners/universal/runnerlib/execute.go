@@ -20,13 +20,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/metrics"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/metricsx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	jobpb "github.com/apache/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/metrics"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/metricsx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	jobpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 )
 
 // Execute executes a pipeline on the universal runner serving the given endpoint.

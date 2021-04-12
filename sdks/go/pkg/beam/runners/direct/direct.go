@@ -21,15 +21,15 @@ import (
 	"context"
 	"path"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/metrics"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/exec"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/go/pkg/beam/options/jobopts"
-	"github.com/apache/beam/sdks/go/pkg/beam/runners/vet"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/metrics"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/exec"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/log"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/options/jobopts"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/vet"
 )
 
 func init() {

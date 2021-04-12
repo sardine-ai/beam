@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/go/pkg/beam/options/jobopts"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/options/jobopts"
 )
 
 func init() {

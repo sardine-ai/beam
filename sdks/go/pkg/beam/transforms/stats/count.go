@@ -17,8 +17,8 @@
 package stats
 
 import (
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
 )
 
 // Count counts the number of appearances of each element in a collection. It

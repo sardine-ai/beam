@@ -18,12 +18,12 @@ package xlangx
 import (
 	"context"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/pipelinex"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	jobpb "github.com/apache/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/graph"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/pipelinex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	jobpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
 	"google.golang.org/grpc"
 )
 

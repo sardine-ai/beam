@@ -20,12 +20,12 @@ package pubsubio
 import (
 	"reflect"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/protox"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/pubsubio/v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/pubsubx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/typex"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/protox"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/util/reflectx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/pubsubio/v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/pubsubx"
 	"github.com/golang/protobuf/proto"
 	pb "google.golang.org/genproto/googleapis/pubsub/v1"
 )

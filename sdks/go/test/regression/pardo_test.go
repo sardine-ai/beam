@@ -18,7 +18,7 @@ package regression
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
 )
 
 func TestDirectParDo(t *testing.T) {

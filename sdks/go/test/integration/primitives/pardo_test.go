@@ -18,8 +18,8 @@ package primitives
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/go/test/integration"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/test/integration"
 )
 
 func TestParDoMultiOutput(t *testing.T) {

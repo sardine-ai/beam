@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
 )
 
 // Equals verifies the given collection has the same values as the given

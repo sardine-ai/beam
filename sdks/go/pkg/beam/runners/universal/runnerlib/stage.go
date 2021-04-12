@@ -21,11 +21,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/artifact"
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/go/pkg/beam/internal/errors"
-	jobpb "github.com/apache/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
-	"github.com/apache/beam/sdks/go/pkg/beam/util/grpcx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/artifact"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/graphx"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/internal/errors"
+	jobpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/jobmanagement_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/util/grpcx"
 	"google.golang.org/grpc"
 )
 

@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam/core/runtime/exec"
-	fnpb "github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1"
-	pipepb "github.com/apache/beam/sdks/go/pkg/beam/model/pipeline_v1"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/core/runtime/exec"
+	fnpb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/fnexecution_v1"
+	pipepb "github.com/sardine-ai/beam/sdks/go/pkg/beam/model/pipeline_v1"
 	"github.com/golang/protobuf/proto"
 )
 

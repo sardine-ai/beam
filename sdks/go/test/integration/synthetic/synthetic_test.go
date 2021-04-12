@@ -18,14 +18,14 @@ package synthetic
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/io/synthetic"
-	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/dataflow"
-	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/flink"
-	_ "github.com/apache/beam/sdks/go/pkg/beam/runners/spark"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/go/test/integration"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/io/synthetic"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/dataflow"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/flink"
+	_ "github.com/sardine-ai/beam/sdks/go/pkg/beam/runners/spark"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/passert"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/test/integration"
 )
 
 // TestSimplePipeline creates a very simple synthetic pipeline to test that

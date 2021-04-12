@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/go/pkg/beam"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/go/pkg/beam/testing/ptest"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/passert"
+	"github.com/sardine-ai/beam/sdks/go/pkg/beam/testing/ptest"
 	"github.com/golang/protobuf/proto"
 )
 

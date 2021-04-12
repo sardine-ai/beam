@@ -22,7 +22,7 @@ applyGoNature()
 description = "Apache Beam :: SDKs :: Go"
 
 golang {
-  packagePath = 'github.com/apache/beam/sdks/go'
+  packagePath = 'github.com/sardine-ai/beam/sdks/go'
 
   goBuild {
     // The symlinks makes it hard (impossible?) to do a wildcard build
@@ -31,10 +31,10 @@ golang {
 
     targetPlatform = ['linux-amd64']
     // Build debugging utilities
-    go 'build -o ./build/bin/linux-amd64/beamctl github.com/apache/beam/sdks/go/cmd/beamctl'
+    go 'build -o ./build/bin/linux-amd64/beamctl github.com/sardine-ai/beam/sdks/go/cmd/beamctl'
 
     // Build integration test driver
-    go 'build -o ./build/bin/linux-amd64/integration/driver github.com/apache/beam/sdks/go/test/integration/driver'
+    go 'build -o ./build/bin/linux-amd64/integration/driver github.com/sardine-ai/beam/sdks/go/test/integration/driver'
   }
 
   // Ignore spurious vet errors during check for [BEAM-4831].
