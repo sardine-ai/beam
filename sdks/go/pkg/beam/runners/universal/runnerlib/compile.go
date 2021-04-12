@@ -76,7 +76,7 @@ func BuildWorkerBinary(ctx context.Context, filename string) error {
 		return errors.New("could not detect user main")
 	}
 
-	log.Infof(ctx, "Cross-compiling %v as %v", program, filename)
+	log.Infof(ctx, "Cross-compiling %v as %v with proto flag", program, filename)
 
 	// Cross-compile given go program. Not awesome.
 	var build []string
@@ -85,7 +85,7 @@ func BuildWorkerBinary(ctx context.Context, filename string) error {
 		program = program + "."
 		build = []string{"go", "test", "-c", "-o", filename, program}
 	} else {
-		build = []string{"go", "build", "-o", filename, program}
+		build = []string{"go", "build", "-ldflags", "\"-X google.golang.org/protobuf/reflect/protoregistry.conflictPolicy=warn\"", "-o", filename, program}
 	}
 
 	cmd := exec.Command(build[0], build[1:]...)
